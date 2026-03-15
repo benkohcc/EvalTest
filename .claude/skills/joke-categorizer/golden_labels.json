@@ -1,0 +1,27 @@
+{
+  "description": "Golden dataset — ground truth labels defined by the user",
+  "labels": {
+    "1": "funny",
+    "2": "not funny",
+    "3": "not funny",
+    "4": "funny",
+    "5": "not funny",
+    "6": "funny",
+    "7": "funny",
+    "8": "funny",
+    "9": "funny",
+    "10": "funny",
+    "11": "funny",
+    "12": "funny",
+    "13": "not funny",
+    "14": "not funny",
+    "15": "not funny",
+    "16": "funny",
+    "17": "not funny",
+    "18": "funny",
+    "19": "not funny",
+    "20": "funny"
+  },
+  "funny_count": 12,
+  "not_funny_count": 8
+}

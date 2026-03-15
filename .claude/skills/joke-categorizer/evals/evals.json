@@ -1,0 +1,23 @@
+{
+  "skill_name": "joke-categorizer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Can you categorize the jokes in /Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv as funny or not funny and save the results to a new CSV?",
+      "expected_output": "A CSV file named martech_jokes_categorized.csv with all original columns plus a 'funny' column containing 'funny' or 'not funny' for each of the 20 jokes. A brief summary of how many were funny vs not funny.",
+      "files": ["/Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv"]
+    },
+    {
+      "id": 2,
+      "prompt": "I have a CSV of jokes at /Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv. Can you go through and label each one as funny or not funny?",
+      "expected_output": "A CSV file with a new 'funny' column added, consistent labels using exactly 'funny' or 'not funny', and a summary callout of standout jokes.",
+      "files": ["/Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv"]
+    },
+    {
+      "id": 3,
+      "prompt": "Rate the jokes in /Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv — which ones are actually funny?",
+      "expected_output": "A CSV output file with a 'funny' column appended, plus commentary identifying the funniest jokes and why they work.",
+      "files": ["/Users/benjaminkoh/Documents/VibeProjects/EvalTest/martech_jokes.csv"]
+    }
+  ]
+}
